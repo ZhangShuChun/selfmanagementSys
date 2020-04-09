@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8C6A0525-7FC9-1DAD-30B1-29784FD68126" containerWithKeyObject="835B4436-FB1C-A1D5-7864-AB0DDB7D5B84" localFKIndex="9A4E550D-8D0D-9208-075C-34C68C9FD079" name="Test_Function_FKv2">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:13:22 UTC</createdTime>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<referredTableLongName>Function</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ABA87E4F-3B5D-27E5-6238-8C8DAFD5E086</referredTableID>
+<keyObject>A593D55F-8C31-B859-5DD9-25B9F8E90ABB</keyObject>
+<referredKeyID>A593D55F-8C31-B859-5DD9-25B9F8E90ABB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FunctionID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

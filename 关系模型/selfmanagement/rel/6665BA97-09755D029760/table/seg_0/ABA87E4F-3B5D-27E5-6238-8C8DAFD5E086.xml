@@ -1,0 +1,194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ABA87E4F-3B5D-27E5-6238-8C8DAFD5E086" name="Function">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:05:52 UTC</createdTime>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FunctionID" id="E688C129-5CD6-AA92-38ED-D66D77918B5A">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:35:21 UTC</createdTime>
+<commentInRDBMS>ID</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FunctionName" id="78B35B96-995E-E0E5-D4BE-AB3C69E27759">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:11:59 UTC</createdTime>
+<commentInRDBMS>功能名称</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FunctionEmergencyDegree" id="961328B7-7B9B-65C5-9E16-826868CBBC11">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:11:59 UTC</createdTime>
+<commentInRDBMS>简易程度</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FunctionType" id="85483D7F-F36B-5946-C2B9-36AA43081BAD">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:11:59 UTC</createdTime>
+<commentInRDBMS>完成状态</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FunctionDescribe" id="E1B2B930-8934-1376-3BD7-636B0E0BA3E3">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:11:59 UTC</createdTime>
+<commentInRDBMS>功能描述</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FunctionPlannedCompletionTime" id="0D5E545E-0AC7-A43C-350B-84FACC88CD10">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:11:59 UTC</createdTime>
+<commentInRDBMS>计划日期</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FunctionAlterationOne" id="4683073B-A886-8F7A-470E-739E38E909CE">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:11:59 UTC</createdTime>
+<commentInRDBMS>第一次变更</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FunctionAlterationOneCause " id="C1061E4C-B590-35D4-9F90-CA818739F4D2">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:11:59 UTC</createdTime>
+<commentInRDBMS>时间变更原因</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FunctionAlterationTow" id="2D5C2F1E-7847-29A4-434C-BB2C44097FAE">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:11:59 UTC</createdTime>
+<commentInRDBMS>第二次变更</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FunctionAlterationTowCause" id="76FD364D-9EC2-17BC-A18B-80BFA81C2618">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:11:59 UTC</createdTime>
+<commentInRDBMS>时间变更原因</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FunctionAlterationThree" id="6C3E1ED8-50B9-307D-C337-E9D6A3B48DA8">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:11:59 UTC</createdTime>
+<commentInRDBMS>第三次变更</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FunctionAlterationThreeCause " id="F495BC73-0B7F-7180-0569-413E4FF3F676">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:11:59 UTC</createdTime>
+<commentInRDBMS>时间变更原因</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FunctionAlterationFour" id="783430E2-B0F9-C042-C666-C88C45E01400">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:11:59 UTC</createdTime>
+<commentInRDBMS>第四次变更</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FunctionAlterationFourCause" id="5B273B89-B309-40A6-BE8A-F550A51A6E26">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:11:59 UTC</createdTime>
+<commentInRDBMS>时间变更原因</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FunctionPostponeDay" id="5EA7411B-C00F-618C-6551-B6E36E148C76">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:11:59 UTC</createdTime>
+<commentInRDBMS>延期天数</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FunctionTA" id="EA5689F3-BA48-AADA-0201-720D37E0153E">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:11:59 UTC</createdTime>
+<commentInRDBMS>技术分析</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FunctionDay" id="448024B9-4BA9-E3BA-3A63-51D523233219">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:11:59 UTC</createdTime>
+<commentInRDBMS>共用天数</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A593D55F-8C31-B859-5DD9-25B9F8E90ABB" name="Function_PK">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:35:21 UTC</createdTime>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E688C129-5CD6-AA92-38ED-D66D77918B5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

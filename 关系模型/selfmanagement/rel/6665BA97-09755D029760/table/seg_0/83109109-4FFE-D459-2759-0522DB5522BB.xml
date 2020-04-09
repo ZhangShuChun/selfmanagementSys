@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83109109-4FFE-D459-2759-0522DB5522BB" name="User">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:21:10 UTC</createdTime>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UserID" id="BE04C864-28D3-E29B-672C-CC242EB912DF">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:22:19 UTC</createdTime>
+<commentInRDBMS>ID</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UserName" id="FC06AF48-6850-AF71-9FB0-480E760259EF">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:22:19 UTC</createdTime>
+<commentInRDBMS>用户名称</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UserPwd" id="1EAF1F80-BCC3-A565-F776-EFFBFF7F1C97">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:22:19 UTC</createdTime>
+<commentInRDBMS>用户密码</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD0B2F96-7C4D-9394-FA2E-F61A93EE10EB" name="User_PK">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:22:27 UTC</createdTime>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE04C864-28D3-E29B-672C-CC242EB912DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,188 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70E8ED57-57D9-94E2-85E1-414591C2BB56" name="Task">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:37:18 UTC</createdTime>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<abbreviation>T</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TaskID " id="BD3830C6-185A-65B3-8D24-9AE53C7F9862">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:38:24 UTC</createdTime>
+<commentInRDBMS>ID </commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TaskInitiator" id="DA0BD487-AC10-D325-B015-7A8995485060">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:38:24 UTC</createdTime>
+<commentInRDBMS>任务发起人</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TaskType" id="C9C367A8-ED75-DFC9-A604-730C576DFF05">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:38:24 UTC</createdTime>
+<commentInRDBMS>任务类型</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TaskDescribe" id="D354AE73-3767-C919-FD02-92ABDCB74D43">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:38:24 UTC</createdTime>
+<commentInRDBMS>任务描述</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TaskEmergencyDegree" id="0F53A177-6494-9ADA-7F58-3AE6804DF220">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:38:24 UTC</createdTime>
+<commentInRDBMS>紧急状态</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TaskStartingTime" id="B68249A7-996D-E7B9-BFA2-83D484A4ABB7">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:38:24 UTC</createdTime>
+<commentInRDBMS>发起时间</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TadkPlannedCompletionTime" id="D6A46AFA-84A8-4814-3ACF-FAF280AFC5D1">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:38:24 UTC</createdTime>
+<commentInRDBMS>计划完成时间</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TaskNumberOfDays" id="D41B44A1-D280-40A3-AFF0-A1B93D70FF9E">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:38:24 UTC</createdTime>
+<commentInRDBMS>所用天数</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TaskCurrentState" id="1BC2ACE4-2EC6-6B91-4B70-CE3C3A54946D">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:38:24 UTC</createdTime>
+<commentInRDBMS>当前状态</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TaskCompletionTime" id="680339C0-C8FD-3D50-7E12-F48ED9756A31">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:38:24 UTC</createdTime>
+<commentInRDBMS>完成时间</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TaskNumberOfDaysOvertime" id="204B08DD-F081-0E28-350A-F9E296A6B19A">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:38:24 UTC</createdTime>
+<commentInRDBMS>超时天数</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TaskTimeoutReason" id="F9501D09-28DA-CB7D-61F0-B300B8F3765A">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:38:24 UTC</createdTime>
+<commentInRDBMS>超时原因</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TaskDetailRecord" id="526BF1B8-7CED-FE3E-75A6-EAC24A63568C">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:38:24 UTC</createdTime>
+<commentInRDBMS>详细信息记录</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TaskExecutor" id="030247EE-125A-0F52-194F-19063D48FFC7">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:38:24 UTC</createdTime>
+<commentInRDBMS>执行人</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TakeLeftoverProblem" id="15D0A9B2-C41A-4EDE-5C70-CF176AC167AF">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:38:24 UTC</createdTime>
+<commentInRDBMS>遗留问题</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TaskSummarize" id="39383881-1A18-A0B5-943C-C1CA1464A2CF">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:38:24 UTC</createdTime>
+<commentInRDBMS>总结</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="04DC14A2-22DC-0039-F496-3DEF819549F8" name="Task_PK">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:57:39 UTC</createdTime>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD3830C6-185A-65B3-8D24-9AE53C7F9862"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

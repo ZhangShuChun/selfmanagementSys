@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="A8D8D59D-4E3C-57DA-8E56-430D8E5ACE4D">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:09:48 UTC</createdTime>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

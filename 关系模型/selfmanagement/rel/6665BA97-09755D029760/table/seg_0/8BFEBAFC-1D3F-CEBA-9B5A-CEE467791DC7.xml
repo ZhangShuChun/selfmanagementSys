@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8BFEBAFC-1D3F-CEBA-9B5A-CEE467791DC7" name="Dict">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:19:04 UTC</createdTime>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DictID" id="069A124C-7280-2B67-48C5-540D1AAF29B6">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:20:03 UTC</createdTime>
+<commentInRDBMS>ID</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DictTable" id="C9D5C0AF-E6A5-A158-7B14-F21E2455BEF3">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:20:03 UTC</createdTime>
+<commentInRDBMS>表名</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DictColumn" id="4A4949E3-F83A-CD2E-BE16-82D433F13011">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:20:03 UTC</createdTime>
+<commentInRDBMS>字段名</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DictValue" id="9C0BE703-EFB4-94E0-2BC7-4830AD76CEF9">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:20:03 UTC</createdTime>
+<commentInRDBMS>字段值</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8650416-BEF1-C31F-F8CD-29BC8EFE5760" name="Dict_PK">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:22:31 UTC</createdTime>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="069A124C-7280-2B67-48C5-540D1AAF29B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

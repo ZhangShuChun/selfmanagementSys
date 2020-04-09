@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="835B4436-FB1C-A1D5-7864-AB0DDB7D5B84" name="Test">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:48:41 UTC</createdTime>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TestID" id="902A229A-1C07-E0C3-41AB-C6B3BC6ABA92">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:49:48 UTC</createdTime>
+<commentInRDBMS>ID</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProjectID" id="8E85D3DE-FB3E-D09B-9D5F-71C4FDF59024">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:49:48 UTC</createdTime>
+<commentInRDBMS>项目ID</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CBFD90B-E1F2-D793-51A6-5E7BCDE13494" referredColumn="9FEAC8EE-1808-87DB-25AD-DF4E5D33B6F4"/>
+</associations>
+</Column>
+<Column name="FunctionID" id="338089C8-17C8-17F7-B217-A71F316D3843">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:37:21 UTC</createdTime>
+<commentInRDBMS>功能表ID</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C6A0525-7FC9-1DAD-30B1-29784FD68126" referredColumn="E688C129-5CD6-AA92-38ED-D66D77918B5A"/>
+</associations>
+</Column>
+<Column name="BugID" id="929585A6-80A6-E396-0008-E82B829977E7">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:37:21 UTC</createdTime>
+<commentInRDBMS>BugID</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C140BF51-DE8D-D4E0-4E22-57BED34F10B7" referredColumn="283F7562-C0EC-8AC7-5CD4-F46B1349F620"/>
+</associations>
+</Column>
+<Column name="TestStartingTime" id="99FE2FFA-B091-5224-B205-AE81040ADA27">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:37:21 UTC</createdTime>
+<commentInRDBMS>测试开始日期</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TestCompletionTime" id="74DB1826-5DE5-A39F-7A8C-CE5BF1DB286D">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:37:21 UTC</createdTime>
+<commentInRDBMS>测试结束日期</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TestHH" id="5299271A-0491-3217-653B-1E650CFE8093">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:37:21 UTC</createdTime>
+<commentInRDBMS>测试用时(小时)</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TsetWork" id="5905BE87-600B-E36F-5899-FDA84E83C624">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:37:21 UTC</createdTime>
+<commentInRDBMS>测试人员</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TestSummarize" id="53E00ADB-625C-7CC9-1B42-92BD6D3DFF8C">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:37:21 UTC</createdTime>
+<commentInRDBMS>测试总结</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6244DC62-82D0-4CA5-2379-E239B8F45DEA" name="Test_PK">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:57:19 UTC</createdTime>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="902A229A-1C07-E0C3-41AB-C6B3BC6ABA92"/>
+<colUsage columnID="8E85D3DE-FB3E-D09B-9D5F-71C4FDF59024"/>
+<colUsage columnID="929585A6-80A6-E396-0008-E82B829977E7"/>
+<colUsage columnID="338089C8-17C8-17F7-B217-A71F316D3843"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5279D145-08F5-36E0-13D8-74299C5D7763" name="Test_Project_FK">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 10:04:14 UTC</createdTime>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E85D3DE-FB3E-D09B-9D5F-71C4FDF59024"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A4E550D-8D0D-9208-075C-34C68C9FD079" name="Test_Function_FKv2">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:13:22 UTC</createdTime>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="338089C8-17C8-17F7-B217-A71F316D3843"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5DC3B36-C451-6788-7335-73FF6A8072AE" name="Test_BUG_FK">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:16:09 UTC</createdTime>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="929585A6-80A6-E396-0008-E82B829977E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

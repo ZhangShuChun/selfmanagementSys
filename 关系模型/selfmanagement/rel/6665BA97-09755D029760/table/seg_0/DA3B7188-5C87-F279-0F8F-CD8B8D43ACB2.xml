@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA3B7188-5C87-F279-0F8F-CD8B8D43ACB2" name="Plan">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:06:50 UTC</createdTime>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PlanID" id="9B05D1DF-445C-BE8E-536C-368979FC4B07">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:39:44 UTC</createdTime>
+<commentInRDBMS>ID</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PlanType" id="92D63E55-FB7F-D315-EFBA-2F2B18BB3BEB">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:39:44 UTC</createdTime>
+<commentInRDBMS>计划类型</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PlanInitiator" id="C562AF48-3D10-7E88-04A3-AE2C19F88F66">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:39:44 UTC</createdTime>
+<commentInRDBMS>发起人</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PlanDescribe" id="198D080A-FFCE-E4A1-E38E-6105F8082E8B">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:39:44 UTC</createdTime>
+<commentInRDBMS>计划描述</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PlanStartingTime" id="6A9302A7-61C3-842D-3500-5ADBC3B2B0A5">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:39:44 UTC</createdTime>
+<commentInRDBMS>计划开始日期</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PlanCompletionTime" id="9A9AFB38-A694-4A8B-080D-ABA098F0091E">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:39:44 UTC</createdTime>
+<commentInRDBMS>计划结束日期</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PlanState" id="C05E21D8-49F0-EEAD-ABDE-AFACC0091AB7">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:39:44 UTC</createdTime>
+<commentInRDBMS>计划状态</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PlanRemark" id="B7094723-1B03-EBDD-0D0B-BEE331F7C2EB">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:39:44 UTC</createdTime>
+<commentInRDBMS>计划备注</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PlanCheckName" id="FD07D75D-59F6-B5A8-AB3D-E0B080E63D2C">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:15:00 UTC</createdTime>
+<commentInRDBMS>审核人</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76B6A079-924B-375B-7375-2F34895A683C" name="Plan_PK">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:39:56 UTC</createdTime>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B05D1DF-445C-BE8E-536C-368979FC4B07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

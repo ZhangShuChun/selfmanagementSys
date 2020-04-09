@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="349F47C7-01CC-9EDF-2BF1-CD709C6EB985" name="BUG">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:06:35 UTC</createdTime>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BugID" id="283F7562-C0EC-8AC7-5CD4-F46B1349F620">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:34:59 UTC</createdTime>
+<commentInRDBMS>ID</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BugDescribe" id="01302D80-B654-BB68-E995-2BC22133C8A6">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:14:24 UTC</createdTime>
+<commentInRDBMS>bug描述</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BugType" id="1B1AA832-E8AB-49CE-F2D4-B1B45D3B8762">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:14:24 UTC</createdTime>
+<commentInRDBMS>bug状态</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BugPlannedCompletionTimeHH" id="564BA5FC-7352-4BF8-35C6-441009F113F4">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:14:24 UTC</createdTime>
+<commentInRDBMS>预计改正用时(小时)</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BugFinishHH" id="82361FE6-7968-E99B-E85C-794198F4D88D">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:14:24 UTC</createdTime>
+<commentInRDBMS>现实用时</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="850E7120-2FB0-BE94-8961-4302FFFC6D92" name="BUG_PK">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:34:59 UTC</createdTime>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="283F7562-C0EC-8AC7-5CD4-F46B1349F620"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

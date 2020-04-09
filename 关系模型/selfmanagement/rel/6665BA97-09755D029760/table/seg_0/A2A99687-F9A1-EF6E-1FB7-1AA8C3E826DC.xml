@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2A99687-F9A1-EF6E-1FB7-1AA8C3E826DC" name="Project">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:49:56 UTC</createdTime>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ProjectID" id="9FEAC8EE-1808-87DB-25AD-DF4E5D33B6F4">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:51:03 UTC</createdTime>
+<commentInRDBMS>ID</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProjectName" id="71CE0FFD-8300-6012-BC74-77DDE1AD6098">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:51:37 UTC</createdTime>
+<commentInRDBMS>项目名称</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProjectWoedName" id="6693D513-0734-5061-C3B8-69C14F83FDCC">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:33:36 UTC</createdTime>
+<commentInRDBMS>参与人员</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProjectOnlineHospital" id="93219B3F-42A6-BF88-F2E2-0EA9567D787E">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:33:36 UTC</createdTime>
+<commentInRDBMS>上线医院</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProjectSummarize" id="E92093C5-3792-992F-0125-9514FC85C9D4">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:33:36 UTC</createdTime>
+<commentInRDBMS>项目总结</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="860EA767-2774-3C07-C0A4-F1150FA7FF16" name="Project_PK">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:57:43 UTC</createdTime>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FEAC8EE-1808-87DB-25AD-DF4E5D33B6F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

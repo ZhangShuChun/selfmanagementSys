@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F2B5F16-5AEE-5B27-569F-E4ADF5C52F8F" name="Summarize">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 02:06:27 UTC</createdTime>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SummarizeID" id="3255128E-50A4-1945-B80F-8715A56FF36B">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:18:48 UTC</createdTime>
+<commentInRDBMS>ID</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SummarizeType" id="E273EAF1-C6EC-7D93-2CC4-C9439C12D07B">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:18:48 UTC</createdTime>
+<commentInRDBMS>总结类型</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SummarizeContent" id="A7D64DA8-27AE-882C-7ABE-E4A3DDEAFF5A">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:18:48 UTC</createdTime>
+<commentInRDBMS>总结内容</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SummarizeTime" id="9D69E67D-0548-48DB-426E-60F23304F3C6">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:18:48 UTC</createdTime>
+<commentInRDBMS>总结时间</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SummarizeWorkName" id="57E37703-9D28-75DD-999E-D8003CCD111F">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:18:48 UTC</createdTime>
+<commentInRDBMS>总结人</commentInRDBMS>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2628866-E906-D31F-61CC-373D643A949D" name="Summarize_PK">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-03 03:22:45 UTC</createdTime>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3255128E-50A4-1945-B80F-8715A56FF36B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,228 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9C56B3E-08E7-FF3E-544C-0BC1B32F06BE" name="Task">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:11:03 UTC</createdTime>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<engineerTo>
+<item key="CCE7EE97-C10B-A723-CB05-7D726E5A6DD3" value="true"/>
+<item key="6665BA97-4C30-03FC-EFC1-09755D029760" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TaskID" id="B84E2859-71DB-9BE3-FCD4-AA572CDE22F9">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:13:08 UTC</createdTime>
+<comment>ID&lt;br/&gt;</comment>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<engineerTo>
+<item key="CCE7EE97-C10B-A723-CB05-7D726E5A6DD3" value="true"/>
+<item key="6665BA97-4C30-03FC-EFC1-09755D029760" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TaskInitiator" id="AC911FBD-DB5B-EEB3-9F45-3D85880922BD">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:12:20 UTC</createdTime>
+<comment>任务发起人&lt;br/&gt;</comment>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<engineerTo>
+<item key="CCE7EE97-C10B-A723-CB05-7D726E5A6DD3" value="true"/>
+<item key="6665BA97-4C30-03FC-EFC1-09755D029760" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TaskType" id="19690955-AE15-1A3E-CFA8-DBA570CE24D0">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:14:20 UTC</createdTime>
+<comment>任务类型</comment>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<engineerTo>
+<item key="CCE7EE97-C10B-A723-CB05-7D726E5A6DD3" value="true"/>
+<item key="6665BA97-4C30-03FC-EFC1-09755D029760" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TaskDescribe" id="EE7E8166-5212-FC7C-A299-F117BFD99C51">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:14:20 UTC</createdTime>
+<comment>任务描述</comment>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<engineerTo>
+<item key="CCE7EE97-C10B-A723-CB05-7D726E5A6DD3" value="true"/>
+<item key="6665BA97-4C30-03FC-EFC1-09755D029760" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TaskEmergencyDegree" id="C37DC47C-4B26-A7D3-66B5-60F06C0C013D">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:14:18 UTC</createdTime>
+<comment>紧急状态</comment>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<engineerTo>
+<item key="CCE7EE97-C10B-A723-CB05-7D726E5A6DD3" value="true"/>
+<item key="6665BA97-4C30-03FC-EFC1-09755D029760" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TaskStartingTime" id="705CF0EE-6A2A-F165-FE52-936829E8E0C8">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:17:59 UTC</createdTime>
+<comment>发起时间</comment>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<engineerTo>
+<item key="CCE7EE97-C10B-A723-CB05-7D726E5A6DD3" value="true"/>
+<item key="6665BA97-4C30-03FC-EFC1-09755D029760" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TadkPlannedCompletionTime" id="34DEAB8D-A73A-2F44-4AE5-1ECBC35BC49E">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:17:59 UTC</createdTime>
+<comment>计划完成时间&lt;br/&gt;</comment>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<engineerTo>
+<item key="CCE7EE97-C10B-A723-CB05-7D726E5A6DD3" value="true"/>
+<item key="6665BA97-4C30-03FC-EFC1-09755D029760" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TaskNumberOfDays" id="AFC5D96C-1144-EA74-3E0B-314FA6CE8572">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:18:00 UTC</createdTime>
+<comment>所用天数</comment>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<engineerTo>
+<item key="CCE7EE97-C10B-A723-CB05-7D726E5A6DD3" value="true"/>
+<item key="6665BA97-4C30-03FC-EFC1-09755D029760" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TaskCurrentState" id="D3B42740-10EA-041C-12B2-530EAE801049">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:22:56 UTC</createdTime>
+<comment>当前状态</comment>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<engineerTo>
+<item key="CCE7EE97-C10B-A723-CB05-7D726E5A6DD3" value="true"/>
+<item key="6665BA97-4C30-03FC-EFC1-09755D029760" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TaskCompletionTime" id="A6680143-5440-5AE4-8E28-2FF698598F8D">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:22:57 UTC</createdTime>
+<comment>完成时间</comment>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<engineerTo>
+<item key="CCE7EE97-C10B-A723-CB05-7D726E5A6DD3" value="true"/>
+<item key="6665BA97-4C30-03FC-EFC1-09755D029760" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TaskNumberOfDaysOvertime" id="46BF699A-89C7-1995-8F6C-D9B030B11491">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:22:58 UTC</createdTime>
+<comment>超时天数</comment>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<engineerTo>
+<item key="CCE7EE97-C10B-A723-CB05-7D726E5A6DD3" value="true"/>
+<item key="6665BA97-4C30-03FC-EFC1-09755D029760" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TaskTimeoutReason" id="8A995066-CD90-C916-4389-4186B94EFA4A">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:22:59 UTC</createdTime>
+<comment>超时原因</comment>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<engineerTo>
+<item key="CCE7EE97-C10B-A723-CB05-7D726E5A6DD3" value="true"/>
+<item key="6665BA97-4C30-03FC-EFC1-09755D029760" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TaskDetailRecord" id="32C8B10B-DA8B-4141-0ACA-C8A799337A12">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:22:59 UTC</createdTime>
+<comment>详细信息记录</comment>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<engineerTo>
+<item key="CCE7EE97-C10B-A723-CB05-7D726E5A6DD3" value="true"/>
+<item key="6665BA97-4C30-03FC-EFC1-09755D029760" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TaskExecutor " id="FFD16EF7-56F6-BD15-0DDE-1833F41E578D">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:27:27 UTC</createdTime>
+<comment>执行人</comment>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<engineerTo>
+<item key="CCE7EE97-C10B-A723-CB05-7D726E5A6DD3" value="true"/>
+<item key="6665BA97-4C30-03FC-EFC1-09755D029760" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TakeLeftoverProblem" id="C8476E73-5734-2E34-584D-E6DC861BD613">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:27:27 UTC</createdTime>
+<comment>遗留问题</comment>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<engineerTo>
+<item key="CCE7EE97-C10B-A723-CB05-7D726E5A6DD3" value="true"/>
+<item key="6665BA97-4C30-03FC-EFC1-09755D029760" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TaskSummarize" id="49CBD8EA-6277-DFF8-26DF-2DEEFBF77052">
+<createdBy>zsc</createdBy>
+<createdTime>2020-04-02 09:28:43 UTC</createdTime>
+<comment>总结</comment>
+<ownerDesignName>selfmanagement</ownerDesignName>
+<engineerTo>
+<item key="CCE7EE97-C10B-A723-CB05-7D726E5A6DD3" value="true"/>
+<item key="6665BA97-4C30-03FC-EFC1-09755D029760" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
