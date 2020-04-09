@@ -1,0 +1,70 @@
+-- Create table
+create table FUNCTION
+(
+  functionid                    VARCHAR2(20),
+  functionname                  VARCHAR2(20),
+  functionemergencydegree       VARCHAR2(10),
+  functiontype                  VARCHAR2(10),
+  functiondescribe              VARCHAR2(255),
+  functionplannedcompletiontime DATE,
+  functionalterationone         DATE,
+  functionalterationonecause    VARCHAR2(255),
+  functionalterationtow         DATE,
+  functionalterationtowcause    VARCHAR2(255),
+  functionalterationthree       DATE,
+  functionalterationthreecause  VARCHAR2(255),
+  functionalterationfour        DATE,
+  functionalterationfourcause   VARCHAR2(255),
+  functionpostponeday           VARCHAR2(10),
+  functionta                    VARCHAR2(100),
+  functionday                   VARCHAR2(10)
+)
+tablespace USERS
+  pctfree 10
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+-- Add comments to the table 
+comment on table FUNCTION
+  is '字典';
+-- Add comments to the columns 
+comment on column FUNCTION.functionid
+  is 'ID';
+comment on column FUNCTION.functionname
+  is '功能名称';
+comment on column FUNCTION.functionemergencydegree
+  is '简易程度';
+comment on column FUNCTION.functiontype
+  is '完成状态';
+comment on column FUNCTION.functiondescribe
+  is '功能描述';
+comment on column FUNCTION.functionplannedcompletiontime
+  is '计划日期';
+comment on column FUNCTION.functionalterationone
+  is '第一次变更';
+comment on column FUNCTION.functionalterationonecause
+  is '时间变更原因';
+comment on column FUNCTION.functionalterationtow
+  is '第二次变更';
+comment on column FUNCTION.functionalterationtowcause
+  is '时间变更原因';
+comment on column FUNCTION.functionalterationthree
+  is '第三次变更';
+comment on column FUNCTION.functionalterationthreecause
+  is '时间变更原因';
+comment on column FUNCTION.functionalterationfour
+  is '第四次变更';
+comment on column FUNCTION.functionalterationfourcause
+  is '时间变更原因';
+comment on column FUNCTION.functionpostponeday
+  is '延期天数';
+comment on column FUNCTION.functionta
+  is '技术分析';
+comment on column FUNCTION.functionday
+  is '共用天数';

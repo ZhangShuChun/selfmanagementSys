@@ -1,0 +1,46 @@
+-- Create table
+create table TEST
+(
+  testid             VARCHAR2(10),
+  projectid          VARCHAR2(10),
+  functionid         VARCHAR2(10),
+  bugid              VARCHAR2(10),
+  teststartingtime   DATE,
+  testcompletiontime DATE,
+  testhh             VARCHAR2(10),
+  tsetwork           VARCHAR2(20),
+  testsummarize      VARCHAR2(255)
+)
+tablespace USERS
+  pctfree 10
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+-- Add comments to the table 
+comment on table TEST
+  is '测试';
+-- Add comments to the columns 
+comment on column TEST.testid
+  is 'ID';
+comment on column TEST.projectid
+  is '项目ID';
+comment on column TEST.functionid
+  is '功能ID';
+comment on column TEST.bugid
+  is 'BugID';
+comment on column TEST.teststartingtime
+  is '测试开始日期';
+comment on column TEST.testcompletiontime
+  is '测试结束日期';
+comment on column TEST.testhh
+  is '测试用时(小时)';
+comment on column TEST.tsetwork
+  is '测试人员';
+comment on column TEST.testsummarize
+  is '测试总结';

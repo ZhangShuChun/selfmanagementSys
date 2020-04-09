@@ -1,0 +1,46 @@
+-- Create table
+create table PLAN
+(
+  planid             VARCHAR2(20),
+  plantype           VARCHAR2(20),
+  planinitiator      VARCHAR2(10),
+  plandescribe       VARCHAR2(10),
+  planstartingtime   DATE,
+  plancompletiontime DATE,
+  planstate          VARCHAR2(10),
+  planremark         VARCHAR2(20),
+  plancheckname      VARCHAR2(10)
+)
+tablespace USERS
+  pctfree 10
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+-- Add comments to the table 
+comment on table PLAN
+  is '计划';
+-- Add comments to the columns 
+comment on column PLAN.planid
+  is 'ID';
+comment on column PLAN.plantype
+  is '计划类型';
+comment on column PLAN.planinitiator
+  is '发起人';
+comment on column PLAN.plandescribe
+  is '计划描述';
+comment on column PLAN.planstartingtime
+  is '计划开始日期';
+comment on column PLAN.plancompletiontime
+  is '计划结束日期';
+comment on column PLAN.planstate
+  is '计划状态';
+comment on column PLAN.planremark
+  is '计划备注';
+comment on column PLAN.plancheckname
+  is '审核人';

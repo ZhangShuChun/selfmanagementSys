@@ -1,0 +1,34 @@
+-- Create table
+create table BUG
+(
+  bugid                      VARCHAR2(20),
+  bugdescribe                VARCHAR2(255),
+  bugtype                    VARCHAR2(10),
+  bugplannedcompletiontimehh VARCHAR2(10),
+  bugfinishhh                VARCHAR2(10)
+)
+tablespace USERS
+  pctfree 10
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+-- Add comments to the table 
+comment on table BUG
+  is 'BUG';
+-- Add comments to the columns 
+comment on column BUG.bugid
+  is 'ID';
+comment on column BUG.bugdescribe
+  is 'bug描述';
+comment on column BUG.bugtype
+  is 'bug状态';
+comment on column BUG.bugplannedcompletiontimehh
+  is '预计改正用时(小时)';
+comment on column BUG.bugfinishhh
+  is '现实用时';

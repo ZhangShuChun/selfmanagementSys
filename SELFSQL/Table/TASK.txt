@@ -1,0 +1,64 @@
+-- Create table
+create table TASK
+(
+  "TaskID"                    NVARCHAR2(10) not null,
+  "TaskInitiator"             NVARCHAR2(20) not null,
+  "TaskType"                  NVARCHAR2(10) not null,
+  "TaskDescribe"              NVARCHAR2(255) not null,
+  "TaskEmergencyDegree"       NVARCHAR2(20) not null,
+  "TaskStartingTime"          DATE not null,
+  "TadkPlannedCompletionTime" DATE not null,
+  "TaskNumberOfDays"          NVARCHAR2(20),
+  "TaskCurrentState"          NVARCHAR2(10) not null,
+  "TaskCompletionTime"        DATE,
+  "TaskNumberOfDaysOvertime"  NVARCHAR2(20),
+  "TaskTimeoutReason"         NVARCHAR2(20),
+  "TaskDetailRecord"          NVARCHAR2(20),
+  "TaskExecutor"              NVARCHAR2(20),
+  "TakeLeftoverProblem"       NVARCHAR2(20),
+  "TaskSummarize"             NVARCHAR2(20)
+)
+tablespace USERS
+  pctfree 10
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+-- Add comments to the columns 
+comment on column TASK."TaskID"
+  is 'ID';
+comment on column TASK."TaskInitiator"
+  is '任务发起人';
+comment on column TASK."TaskType"
+  is '任务类型';
+comment on column TASK."TaskDescribe"
+  is '任务描述';
+comment on column TASK."TaskEmergencyDegree"
+  is '紧急状态';
+comment on column TASK."TaskStartingTime"
+  is '发起时间';
+comment on column TASK."TadkPlannedCompletionTime"
+  is '计划完成时间';
+comment on column TASK."TaskNumberOfDays"
+  is '所用天数';
+comment on column TASK."TaskCurrentState"
+  is '当前状态';
+comment on column TASK."TaskCompletionTime"
+  is '完成时间';
+comment on column TASK."TaskNumberOfDaysOvertime"
+  is '超时天数';
+comment on column TASK."TaskTimeoutReason"
+  is '超时原因';
+comment on column TASK."TaskDetailRecord"
+  is '详细信息记录';
+comment on column TASK."TaskExecutor"
+  is '执行人';
+comment on column TASK."TakeLeftoverProblem"
+  is '遗留问题';
+comment on column TASK."TaskSummarize"
+  is '总结';

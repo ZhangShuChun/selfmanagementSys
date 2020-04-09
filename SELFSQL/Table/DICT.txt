@@ -1,0 +1,31 @@
+-- Create table
+create table DICT
+(
+  dictid     VARCHAR2(20),
+  dicttable  VARCHAR2(20),
+  dictcolumn VARCHAR2(20),
+  dictvalue  VARCHAR2(50)
+)
+tablespace USERS
+  pctfree 10
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+-- Add comments to the table 
+comment on table DICT
+  is '字典';
+-- Add comments to the columns 
+comment on column DICT.dictid
+  is 'ID';
+comment on column DICT.dicttable
+  is '表名';
+comment on column DICT.dictcolumn
+  is '字段名';
+comment on column DICT.dictvalue
+  is '字段值';
